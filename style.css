@@ -17,18 +17,18 @@
   -webkit-animation-timing-function: linear !important;
   animation-timing-function: linear !important;
 } */
-.rs-animation-slide-top {
+/* .rs-animation-slide-top {
   -webkit-animation-name: rs-fade-top;
   animation-name: rs-fade-top;
-}
-.rs-animation-slide-bottom {
+} */
+/* .rs-animation-slide-bottom {
   -webkit-animation-name: rs-fade-bottom;
   animation-name: rs-fade-bottom;
 }
 .rs-animation-slide-left {
   -webkit-animation-name: rs-fade-left;
   animation-name: rs-fade-left;
-}
+} */
 .rs-animation-slide-right {
   -webkit-animation-name: rs-fade-right;
   animation-name: rs-fade-right;
@@ -1088,7 +1088,7 @@ ul {
   color: #fff !important;
 }
 .rs-header .rs-menu-toggle:hover {
-  color: #ff3115 !important;
+  color: #ff9800 !important;
 }
 .rs-header .menu-area .rs-menu li.current_page_item > a,
 .rs-header-2 .menu-area .rs-menu li.current_page_item > a,
@@ -5039,7 +5039,7 @@ ul {
   color: #212121;
 }
 .rs-team-style7 .item .item-team .team-content .team-name a:hover {
-  color: #ff3115;
+  color: #ff9800;
 }
 .rs-team-style7 .item .item-team .team-content .sub-title {
   font-size: 14px;
@@ -8740,10 +8740,10 @@ ul {
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a {
   background: none !important;
-  color: #212121 !important;
+  color: #041e39 !important;
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a:hover {
-  color: #ff3115 !important;
+  color: #ff9800 !important;
 }
 .rs-footer.rs-footer-style7 .footer-share ul li li {
   margin-left: 5px;
@@ -8770,10 +8770,10 @@ ul {
   background: none;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner i:before {
-  color: #ff3115;
+  color: #ff9800;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-title {
-  color: #212121;
+  color: #041e39;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-desc {
   color: #505050;
@@ -8810,7 +8810,7 @@ ul {
   font-size: 15px;
 }
 .copyright_style7 .copyright p a {
-  color: #ff3115;
+  color: #041e39;
 }
 .copyright_style7 .copyright p a:hover {
   color: #212121;
