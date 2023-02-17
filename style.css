@@ -429,16 +429,7 @@ ul {
 .clear {
   clear: both;
 }
-::-moz-selection {
-  background: #ff3115;
-  text-shadow: none;
-  color: #ffffff;
-}
-::selection {
-  background: #ff3115;
-  text-shadow: none;
-  color: #ffffff;
-}
+
 .sec-spacer {
   padding: 100px 0;
 }
