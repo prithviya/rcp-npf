@@ -9,6 +9,14 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+/* geetha */
+.custom-banner
+{
+  background-image: url('./images/banner/banner.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
 /* .rs-animation-fade {
   -webkit-animation-name: rs-fade;
   animation-name: rs-fade;
@@ -2065,7 +2073,7 @@ ul {
   margin: 0 0 6px;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 40px;
   line-height: 1.1;
   letter-spacing: 5px;
 }
