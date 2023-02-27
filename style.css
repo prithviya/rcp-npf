@@ -557,11 +557,11 @@ ul {
   padding-bottom: 130px;
 }
 .bg12 {
-  background-image: url(images/bg/dream.png);
-  background-position: center top;
+  background-image: url(images/bg/dream.jpg);
+  background-position: center left;
   background-size: cover;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 80px;
 }
 .bg13 {
   background-image: url(images/bg/home8-style.jpg);
@@ -2119,7 +2119,7 @@ ul {
   -webkit-animation: swing-anim2 2s alternate-reverse infinite;
 }
 .rs-banner-section3 {
-  background: url(images/bg/home8-banner-bg.jpg);
+  background: url(images/bg/banner.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   padding-top: 180px;
@@ -2210,7 +2210,7 @@ ul {
 }
 .rs-banner-section3 .register-form .form-group .from-control {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 3px;
   height: 50px;
   line-height: 50px;
