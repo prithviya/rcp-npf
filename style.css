@@ -1794,6 +1794,7 @@ ul {
 .university-home #scrollUp i,
 .university-home .owl-controls .owl-nav > div:hover {
   background: #041e39;
+  border-radius: 5px;
 }
 /* ------------------------------------
     04. Sticky Menu
