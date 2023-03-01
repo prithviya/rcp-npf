@@ -17,6 +17,11 @@
   width: 100%;
   height: 90vh;
 }
+.banner-subTitle
+{
+  color: #fff;
+  font-size: 1.3rem;
+}
 /* .rs-animation-fade {
   -webkit-animation-name: rs-fade;
   animation-name: rs-fade;
@@ -467,8 +472,8 @@ ul {
 /*-- Readon Button Css --*/
 .readon2 {
   font-size: 14px;
-  border: 1px solid #ff9800;
-  background: #ff9800;
+  border: 1px solid #d2601a;
+  background: #d2601a;
   display: inline-block;
   padding: 0 35px;
   height: 45px;
@@ -485,8 +490,8 @@ ul {
 
 .readon2:hover {
   background: #fff;
-  color: #041e39;
-  border: 1px solid #041e39;
+  color:  #1d3c45;
+  border: 1px solid  #1d3c45;
 }
 /********************************/
 /*       Slides backgrounds     */
@@ -556,6 +561,13 @@ ul {
   padding-top: 200px;
   padding-bottom: 130px;
 }
+.bg011 {
+  background-image: url(images/bg/clinical.png);
+  background-position: center top;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 130px;
+}
 .bg12 {
   background-image: url(images/bg/dream.jpg);
   background-position: center left;
@@ -598,7 +610,7 @@ ul {
 .sec-title2 h2 {
   font-size: 30px;
   text-transform: uppercase;
-  color: #041e39;
+  color:  #1d3c45;
   font-weight: 700;
   line-height: 40px;
   margin: 0;
@@ -607,7 +619,7 @@ ul {
   display: block;
   font-size: 18px;
   line-height: 34px;
-  color: #ff9800;
+  color: #d2601a;
   font-weight: 600;
 }
 .sec-title {
@@ -969,7 +981,7 @@ ul {
   height: 42px;
   line-height: 42px;
   text-align: center;
-  background-color: #041e39;
+  background-color:  #1d3c45;
   color: #fff;
   transform: translateY(-50%);
   font-size: 22px;
@@ -979,7 +991,7 @@ ul {
   transition: all 0.3s ease 0s;
 }
 .owl-controls .owl-nav > div:hover {
-  background-color: #ff9800;
+  background-color: #d2601a;
 }
 .owl-controls .owl-nav .owl-prev {
   left: -60px;
@@ -1097,7 +1109,7 @@ ul {
   color: #fff !important;
 }
 .rs-header .rs-menu-toggle:hover {
-  color: #ff9800 !important;
+  color: #d2601a !important;
 }
 .rs-header .menu-area .rs-menu li.current_page_item > a,
 .rs-header-2 .menu-area .rs-menu li.current_page_item > a,
@@ -1115,7 +1127,7 @@ ul {
 .rs-header-2 .menu-area .rs-menu li a:hover,
 .rs-header-3 .menu-area .rs-menu li a:hover,
 .rs-header-4 .menu-area .rs-menu li a:hover {
-  color: #041e39 !important;
+  color:  #1d3c45 !important;
 }
 .rs-header-2 {
   position: absolute;
@@ -1366,7 +1378,7 @@ ul {
   padding-top: 0;
 }
 #rs-header.rs-transfarent-header-style .menu-sticky.sticky {
-  background: #041e39;
+  background:  #1d3c45;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1793,7 +1805,7 @@ ul {
 }
 .university-home #scrollUp i,
 .university-home .owl-controls .owl-nav > div:hover {
-  background: #041e39;
+  background:  #1d3c45;
   border-radius: 5px;
 }
 /* ------------------------------------
@@ -2099,7 +2111,7 @@ ul {
 }
 .rs-banner-section2 .banner-inner .readon:hover {
   background: #ffffff;
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-banner-section2 .animate .circle1 {
   position: absolute;
@@ -2200,7 +2212,7 @@ ul {
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color: #041e39;
+  background-color:  #1d3c45;
   top: 0;
   content: "";
   border-radius: 10px;
@@ -2229,7 +2241,7 @@ ul {
   line-height: 50px;
   -webkit-appearance: button;
   cursor: pointer;
-  background: #ff9800;
+  background: #d2601a;
   border: 0;
   color: #fff;
   font-size: 15px;
@@ -2240,7 +2252,7 @@ ul {
 }
 .rs-banner-section3 .register-form .form-group input[type=submit]:hover {
   color: #ffffff;
-  background: #041e39;
+  background:  #1d3c45;
 }
 .rs-banner-section3 .register-form .form-group .select-option {
   position: relative;
@@ -2391,13 +2403,13 @@ ul {
   display: block;
   font-size: 18px;
   line-height: 34px;
-  color: #ff9800;
+  color: #d2601a;
   font-weight: 600;
 }
 .rs-services-style7 .content-part .title {
   font-size: 30px;
   line-height: 40px;
-  color: #041e39;
+  color:  #1d3c45;
   font-weight: 700;
   margin: 0;
 }
@@ -2571,7 +2583,7 @@ ul {
 }
 .rs-about-style7 .content-part .play-btn .pulse-btn {
   position: absolute;
-  background: #ff9800;
+  background: #d2601a;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -2597,7 +2609,7 @@ ul {
   width: 80px;
   height: 80px;
   background: transparent;
-  border: 2px solid #ff9800;
+  border: 2px solid #d2601a;
   border-radius: 50%;
   transition: all 200ms;
   animation: pulse-border 1500ms ease-out infinite;
@@ -2615,13 +2627,13 @@ ul {
   background: transparent;
   border-radius: 50%;
   transition: all 200ms;
-  border: 2px solid #ff9800;
+  border: 2px solid #d2601a;
 
 }
 .rs-about-style7 .content-part .sub-title {
   display: block;
   font-size: 18px;
-  color: #ff9800;
+  color: #d2601a;
   font-weight: 600;
 }
 .rs-about-style7 .content-part .title {
@@ -2915,7 +2927,7 @@ ul {
 }
 .rs-courses .cource-item .course-body .review-wrap .rating {
   display: inline-block;
-  color: #ff9800;
+  color: #d2601a;
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px solid #ddd;
@@ -2973,7 +2985,7 @@ ul {
   margin-bottom: 30px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.06) !important;
   background: #ffffff !important;
-  min-height: 375px;
+  min-height: 280px;
   border-radius: 8px;
 }
 .rs-courses.rs-courses-style6 .cource-item .cource-img img {
@@ -2987,7 +2999,7 @@ ul {
   width: 85px;
   line-height: 30px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #d2601a;
   color: #fff;
   font-size: 13px;
   font-weight: 500;
@@ -2997,7 +3009,7 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #ff9800;
+  border: 2px solid #d2601a;
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -3016,7 +3028,7 @@ ul {
   color: #505050;
 }
 .rs-courses.rs-courses-style6 .cource-item .course-body span a:hover {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-courses.rs-courses-style6 .cource-item .course-body .title {
   font-size: 20px;
@@ -3028,7 +3040,7 @@ ul {
   color: #212121;
 }
 .rs-courses.rs-courses-style6 .cource-item .course-body .title a:hover {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-courses.rs-courses-style6 .cource-item .course-footer {
   background: none;
@@ -3042,7 +3054,7 @@ ul {
   padding-right: 5px;
 }
 .rs-courses.rs-courses-style6 .cource-item .course-footer .review-wrap .rating li {
-  color: #ff9800;
+  color: #d2601a;
   font-size: 18px;
 }
 .rs-courses.rs-courses-style7-new2 .cource-item {
@@ -3059,7 +3071,7 @@ ul {
   width: 85px;
   line-height: 30px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #d2601a;
   color: #fff;
   font-size: 13px;
   font-weight: 500;
@@ -3069,7 +3081,7 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #ff9800;
+  border: 2px solid #d2601a;
   position: absolute;
   bottom: -20px;
   left: 45px;
@@ -3089,7 +3101,7 @@ ul {
   color: #505050;
 }
 .rs-courses.rs-courses-style7-new2 .cource-item .course-body span a:hover {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-courses.rs-courses-style7-new2 .cource-item .course-body .title {
   font-size: 20px;
@@ -3167,7 +3179,7 @@ ul {
   transform: translate(-50%, -50%) !important;
   -webkit-transform: translate(-50%, -50%) !important;
   -ms-transform: translate(-50%, -50%) !important;
-  color: #ff9800;
+  color: #d2601a;
   z-index: 11;
 }
 .event-item .event-img .image-link:hover,
@@ -4189,7 +4201,7 @@ ul {
   text-align: right;
 }
 .rs-courses-details .btn-area a {
-  background: #ff9800;
+  background: #d2601a;
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -4198,7 +4210,7 @@ ul {
 }
 .rs-courses-details .btn-area a:hover {
   background: #fff;
-  color: #ff9800 !important;
+  color: #d2601a !important;
 }
 .rs-courses-details .course-des-tabs {
   margin-top: 15px;
@@ -4328,10 +4340,10 @@ ul {
 }
 .rs-counter-style7 .rs-counter-list .icon-part i:before {
   font-size: 60px;
-  color: #ff9800;
+  color: #d2601a;
 }
-.rs-counter-style7 .rs-counter-list .text-part .counter-number {
-  font-size: 60px;
+.rs-counter-style7 .rs-counter-list .text-part .counter-numbers {
+  font-size: 45px;
   color: #ffffff;
   margin-bottom: 6px;
 }
@@ -4373,7 +4385,7 @@ ul {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-our-best .rs-calltoaction .title {
   font-size: 30px;
@@ -4691,7 +4703,7 @@ ul {
 .rs-latest-news-style7 .title {
   font-size: 30px;
   font-weight: 700;
-  color: #041e39;
+  color:  #1d3c45;
   margin: 0;
 }
 .rs-latest-news-style7 .rs-latest-list {
@@ -4728,10 +4740,10 @@ ul {
   padding-bottom: 18px;
 }
 .rs-latest-news-style7 .rs-latest-list .latest-wrap .news-list-block .news-list-item .news-content .news-title a {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-latest-news-style7 .rs-latest-list .latest-wrap .news-list-block .news-list-item .news-content .news-title a:hover {
-  color: #041e39;
+  color:  #1d3c45;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new {
   display: flex;
@@ -4752,7 +4764,7 @@ ul {
 .rs-latest-news-style7 .rs-latest-list .event-item-new .event-date .vertical-align .day {
   font-size: 30px;
   font-weight: 600;
-  color: #ff9800;
+  color: #d2601a;
   margin: 0 0 6px;
   line-height: 40px;
   display: block;
@@ -4773,7 +4785,7 @@ ul {
   color: #212121;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new .event-des .title a:hover {
-  color: #041e39;
+  color:  #1d3c45;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new .event-des p {
   font-size: 15px;
@@ -4845,7 +4857,7 @@ ul {
   display: block;
   font-size: 18px;
   line-height: 34px;
-  color: #ff9800;
+  color: #d2601a;
   font-weight: 600;
 }
 .rs-countdown-part .countdown-part .title {
@@ -4919,7 +4931,7 @@ ul {
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color: #041e39;
+  background-color:  #1d3c45;
   top: 0;
   content: "";
 }
@@ -5049,7 +5061,7 @@ ul {
   color: #212121;
 }
 .rs-team-style7 .item .item-team .team-content .team-name a:hover {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-team-style7 .item .item-team .team-content .sub-title {
   font-size: 14px;
@@ -8110,7 +8122,7 @@ ul {
   margin-left: 2px;
 }
 #scrollUp i:hover {
-  background-color: #ff9800;
+  background-color: #d2601a;
   color: rgba(255, 255, 255, 0.7);
 }
 /* ------------------------------------
@@ -8750,10 +8762,10 @@ ul {
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a {
   background: none !important;
-  color: #041e39 !important;
+  color:  #1d3c45 !important;
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a:hover {
-  color: #ff9800 !important;
+  color: #d2601a !important;
 }
 .rs-footer.rs-footer-style7 .footer-share ul li li {
   margin-left: 5px;
@@ -8770,20 +8782,19 @@ ul {
   z-index: -1;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc {
-  padding-top: 0;
+  padding-top: 50px;
   border-bottom: 1px solid #e9e2e2;
   transform: translateY(0);
   position: static;
   border-radius: 0;
   box-shadow: none;
-  margin: -100px auto 0;
   background: none;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner i:before {
-  color: #ff9800;
+  color: #d2601a;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-title {
-  color: #041e39;
+  color:  #1d3c45;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-desc {
   color: #505050;
@@ -8820,7 +8831,7 @@ ul {
   font-size: 15px;
 }
 .copyright_style7 .copyright p a {
-  color: #041e39;
+  color:  #1d3c45;
 }
 .copyright_style7 .copyright p a:hover {
   color: #212121;
