@@ -1,18 +1,5 @@
 @charset "utf-8";
 
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Edulearn | Responsive Education HTML5 Template 
-* Author : rs-theme
-* Author URI : http://www.rstheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
-
-
 /* Layout: Large Devices. */
 @media only screen and (min-width: 1600px) {
 	
@@ -399,7 +386,7 @@
         padding-bottom: 0;
     }
     .rs-transfarent-header-style{
-        background: #222;
+        background:#1d3c45;
     }
     .home3 .rs-header .searce-box,
     .home5 .rs-header .searce-box {
@@ -990,7 +977,7 @@
         right: 85px;
     }
     .logo-area img{
-        max-width: 80%;
+        max-width: 65%;
     }
     .gridFilter button + button{
         margin-left: 0;
@@ -1060,9 +1047,9 @@
         line-height: 30px;
     }
     .rs-banner-section .banner-inner .banner-title{
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 15px;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 10px;
     }
     .rs-banner-section .banner-inner .readon {
         letter-spacing: 1px;

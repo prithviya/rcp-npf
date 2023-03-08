@@ -17,10 +17,9 @@
   width: 100%;
   height: 90vh;
 }
-.banner-subTitle
+.text-white-color
 {
-  color: #fff;
-  font-size: 1.3rem;
+  color: #f7f7f7;
 }
 /* .rs-animation-fade {
   -webkit-animation-name: rs-fade;
@@ -490,8 +489,8 @@ ul {
 
 .readon2:hover {
   background: #fff;
-  color:  #1d3c45;
-  border: 1px solid  #1d3c45;
+  color: #1d3c45;
+  border: 1px solid #1d3c45;
 }
 /********************************/
 /*       Slides backgrounds     */
@@ -549,7 +548,7 @@ ul {
   background-position: center top;
 }
 .bg10 {
-  background-image: url(images/bg/counter.jpeg);
+  background-image: url(images/bg/counter.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
@@ -565,8 +564,8 @@ ul {
   background-image: url(images/bg/clinical.png);
   background-position: center top;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 130px;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 .bg12 {
   background-image: url(images/bg/dream.jpg);
@@ -610,7 +609,7 @@ ul {
 .sec-title2 h2 {
   font-size: 30px;
   text-transform: uppercase;
-  color:  #1d3c45;
+  color: #1d3c45;
   font-weight: 700;
   line-height: 40px;
   margin: 0;
@@ -981,7 +980,7 @@ ul {
   height: 42px;
   line-height: 42px;
   text-align: center;
-  background-color:  #1d3c45;
+  background-color: #1d3c45;
   color: #fff;
   transform: translateY(-50%);
   font-size: 22px;
@@ -1122,12 +1121,16 @@ ul {
 .rs-header .menu-area .rs-menu li.active > a,
 .rs-header-2 .menu-area .rs-menu li.active > a,
 .rs-header-3 .menu-area .rs-menu li.active > a,
-.rs-header-4 .menu-area .rs-menu li.active > a,
+.rs-header-4 .menu-area .rs-menu li.active > a 
+{
+  color: white !important;
+}
 .rs-header .menu-area .rs-menu li a:hover,
 .rs-header-2 .menu-area .rs-menu li a:hover,
 .rs-header-3 .menu-area .rs-menu li a:hover,
-.rs-header-4 .menu-area .rs-menu li a:hover {
-  color:  #1d3c45 !important;
+.rs-header-4 .menu-area .rs-menu li a:hover
+{
+  color: #1d3c45;
 }
 .rs-header-2 {
   position: absolute;
@@ -1155,7 +1158,7 @@ ul {
 /* ----- Menu -------*/
 .nav-menu > li > a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 2rem;
 }
 .home1 .logo-area {
   padding-top: 3px;
@@ -1378,7 +1381,7 @@ ul {
   padding-top: 0;
 }
 #rs-header.rs-transfarent-header-style .menu-sticky.sticky {
-  background:  #1d3c45;
+  background: #1d3c45;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1805,7 +1808,7 @@ ul {
 }
 .university-home #scrollUp i,
 .university-home .owl-controls .owl-nav > div:hover {
-  background:  #1d3c45;
+  background: #1d3c45;
   border-radius: 5px;
 }
 /* ------------------------------------
@@ -2018,19 +2021,16 @@ ul {
 .rs-banner-section .banner-inner {
   position: absolute;
   width: 100%;
-  top: 50%;
-  left: 0;
   transform: translateY(-50%);
 }
 .rs-banner-section .banner-inner .sl-sub-title {
   margin-bottom: 2px;
   font-size: 20px;
-  line-height: 70px;
   color: #fff;
   font-weight: 400;
 }
 .rs-banner-section .banner-inner .banner-title {
-  font-size: 75px;
+  font-size: 60px;
   line-height: 75px;
   margin: 0 0 25px;
   font-weight: 700;
@@ -2132,11 +2132,33 @@ ul {
 }
 .rs-banner-section3 {
   background: url(images/bg/banner.jpg);
-  background-position: center top;
   background-repeat: no-repeat;
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 100px;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .rs-banner-section .banner-inner
+  {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .mobile-view-form
+  {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px)
+{
+  .mobile-view-form
+  {
+    display: none;
+  }
 }
 .rs-banner-section3 .countdown-part .sub-title {
   display: block;
@@ -2189,16 +2211,16 @@ ul {
   line-height: 17px;
   font-size: 12px !important;
 }
-.rs-banner-section3 .register-form {
+.register-form {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
 }
-.rs-banner-section3 .register-form .form-title {
+.register-form .form-title {
   position: relative;
   padding: 30px 65px 36px;
   margin-bottom: 50px;
 }
-.rs-banner-section3 .register-form .form-title .title {
+.register-form .form-title .title {
   font-weight: 400;
   color: #fff;
   position: relative;
@@ -2206,21 +2228,21 @@ ul {
   line-height: 1.4;
   font-size: 22px;
 }
-.rs-banner-section3 .register-form .form-title:after {
+.register-form .form-title:after {
   position: absolute;
   height: 100%;
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color:  #1d3c45;
+  background-color: #1d3c45;
   top: 0;
   content: "";
   border-radius: 10px;
 }
-.rs-banner-section3 .register-form .form-group {
+.register-form .form-group {
   padding: 0 50px 5px;
 }
-.rs-banner-section3 .register-form .form-group .from-control {
+.register-form .form-group .from-control {
   width: 100%;
   margin-bottom: 10px;
   border-radius: 3px;
@@ -2233,7 +2255,7 @@ ul {
   border: 1px solid rgba(54, 54, 54, 0.1);
   outline: 0;
 }
-.rs-banner-section3 .register-form .form-group input[type=submit] {
+.register-form .form-group input[type=submit] {
   width: 100%;
   margin-bottom: 50px;
   border-radius: 3px;
@@ -2250,14 +2272,14 @@ ul {
   transition: 0.4s;
   font-weight: 600;
 }
-.rs-banner-section3 .register-form .form-group input[type=submit]:hover {
+.register-form .form-group input[type=submit]:hover {
   color: #ffffff;
-  background:  #1d3c45;
+  background: #1d3c45;
 }
-.rs-banner-section3 .register-form .form-group .select-option {
+.register-form .form-group .select-option {
   position: relative;
 }
-.rs-banner-section3 .register-form .form-group .select-option select {
+.register-form .form-group .select-option select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -2267,7 +2289,7 @@ ul {
   z-index: 11;
   position: relative;
 }
-.rs-banner-section3 .register-form .form-group .select-option:after {
+.register-form .form-group .select-option:after {
   content: '\f107';
   font-family: FontAwesome;
   color: #b1b1b1;
@@ -2409,7 +2431,7 @@ ul {
 .rs-services-style7 .content-part .title {
   font-size: 30px;
   line-height: 40px;
-  color:  #1d3c45;
+  color: #1d3c45;
   font-weight: 700;
   margin: 0;
 }
@@ -2985,7 +3007,6 @@ ul {
   margin-bottom: 30px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.06) !important;
   background: #ffffff !important;
-  min-height: 280px;
   border-radius: 8px;
 }
 .rs-courses.rs-courses-style6 .cource-item .cource-img img {
@@ -4344,7 +4365,6 @@ ul {
 }
 .rs-counter-style7 .rs-counter-list .text-part .counter-numbers {
   font-size: 45px;
-  color: #ffffff;
   margin-bottom: 6px;
 }
 .rs-counter-style7 .rs-counter-list .text-part .counter-desc {
@@ -4703,7 +4723,7 @@ ul {
 .rs-latest-news-style7 .title {
   font-size: 30px;
   font-weight: 700;
-  color:  #1d3c45;
+  color: #1d3c45;
   margin: 0;
 }
 .rs-latest-news-style7 .rs-latest-list {
@@ -4743,7 +4763,7 @@ ul {
   color: #d2601a;
 }
 .rs-latest-news-style7 .rs-latest-list .latest-wrap .news-list-block .news-list-item .news-content .news-title a:hover {
-  color:  #1d3c45;
+  color: #1d3c45;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new {
   display: flex;
@@ -4785,7 +4805,7 @@ ul {
   color: #212121;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new .event-des .title a:hover {
-  color:  #1d3c45;
+  color: #1d3c45;
 }
 .rs-latest-news-style7 .rs-latest-list .event-item-new .event-des p {
   font-size: 15px;
@@ -4931,7 +4951,7 @@ ul {
   width: 100%;
   clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
   left: 0;
-  background-color:  #1d3c45;
+  background-color: #1d3c45;
   top: 0;
   content: "";
 }
@@ -8762,7 +8782,7 @@ ul {
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a {
   background: none !important;
-  color:  #1d3c45 !important;
+  color: #1d3c45 !important;
 }
 .rs-footer.rs-footer-style7 .footer-share ul li a:hover {
   color: #d2601a !important;
@@ -8788,13 +8808,14 @@ ul {
   position: static;
   border-radius: 0;
   box-shadow: none;
+  margin: -100px auto 0;
   background: none;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner i:before {
   color: #d2601a;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-title {
-  color:  #1d3c45;
+  color: #1d3c45;
 }
 .rs-footer.rs-footer-style7 .footer-contact-desc .contact-inner .contact-desc {
   color: #505050;
@@ -8831,7 +8852,7 @@ ul {
   font-size: 15px;
 }
 .copyright_style7 .copyright p a {
-  color:  #1d3c45;
+  color: #1d3c45;
 }
 .copyright_style7 .copyright p a:hover {
   color: #212121;
